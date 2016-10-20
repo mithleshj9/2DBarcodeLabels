@@ -13,6 +13,8 @@
 		2F8764911DB7EAAB00770F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F87648F1DB7EAAB00770F49 /* Main.storyboard */; };
 		2F8764931DB7EAAB00770F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8764921DB7EAAB00770F49 /* Assets.xcassets */; };
 		2F8764961DB7EAAB00770F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8764941DB7EAAB00770F49 /* LaunchScreen.storyboard */; };
+		2F87649F1DB7EB7800770F49 /* PrintLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87649E1DB7EB7800770F49 /* PrintLabelViewController.m */; };
+		2F8764A21DB7EBA100770F49 /* ScanLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8764A11DB7EBA100770F49 /* ScanLabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2F8764921DB7EAAB00770F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F8764951DB7EAAB00770F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F8764971DB7EAAB00770F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F87649D1DB7EB7800770F49 /* PrintLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintLabelViewController.h; sourceTree = "<group>"; };
+		2F87649E1DB7EB7800770F49 /* PrintLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintLabelViewController.m; sourceTree = "<group>"; };
+		2F8764A01DB7EBA100770F49 /* ScanLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanLabelViewController.h; sourceTree = "<group>"; };
+		2F8764A11DB7EBA100770F49 /* ScanLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanLabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				2F8764941DB7EAAB00770F49 /* LaunchScreen.storyboard */,
 				2F8764971DB7EAAB00770F49 /* Info.plist */,
 				2F8764861DB7EAAB00770F49 /* Supporting Files */,
+				2F87649D1DB7EB7800770F49 /* PrintLabelViewController.h */,
+				2F87649E1DB7EB7800770F49 /* PrintLabelViewController.m */,
+				2F8764A01DB7EBA100770F49 /* ScanLabelViewController.h */,
+				2F8764A11DB7EBA100770F49 /* ScanLabelViewController.m */,
 			);
 			path = PrintLabelTest;
 			sourceTree = "<group>";
@@ -149,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8764A21DB7EBA100770F49 /* ScanLabelViewController.m in Sources */,
 				2F87648E1DB7EAAB00770F49 /* ViewController.m in Sources */,
+				2F87649F1DB7EB7800770F49 /* PrintLabelViewController.m in Sources */,
 				2F87648B1DB7EAAB00770F49 /* AppDelegate.m in Sources */,
 				2F8764881DB7EAAB00770F49 /* main.m in Sources */,
 			);
@@ -302,6 +314,7 @@
 				2F87649C1DB7EAAB00770F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

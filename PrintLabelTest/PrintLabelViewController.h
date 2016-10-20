@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PrintLabelViewController.h
 //  PrintLabelTest
 //
 //  Created by Mithlesh Jha on 19/10/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PrintLabelViewController : UIViewController
 
 - (IBAction)printAction:(id)sender;
 
