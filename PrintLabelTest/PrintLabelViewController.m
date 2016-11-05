@@ -94,14 +94,25 @@
     NSMutableString *mStr = [NSMutableString new];
     
     for (NSDictionary *dictionary in queuedLabels) {
-        [mStr appendFormat:@"^XA\
-         ^FO20,20^BQ,2,10\
-         ^FD%@,%@,%@^FS\
-         ^XZ",
+        [mStr appendFormat:@"^CT~~CD,~CC^~CT~\
+         ^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4~SD15^JUS^LRN^CI0^XZ\
+         ^XA\
+         ^MMT\
+         ^PW224\
+         ^LL0074\
+         ^LS0\
+         ^FT179,54^A0I,8,7^FH\\^FD<Vial ID>^FS\
+         ^FT170,58^BQN,2,2\
+         ^FDLA,%@,%@,%@^FS\
+         ^FT161,35^A0I,8,7^FH\\^FD<Description>^FS\
+         ^FT160,16^A0I,8,9^FH\\^FD<Date>^FS\
+         ^PQ1,0,1,Y^XZ",
          dictionary[self.tf1.placeholder],
          dictionary[self.tf2.placeholder],
          dictionary[self.tf3.placeholder]];
     }
+    
+    
     
     NSString *string = mStr;
     if (string == nil)
